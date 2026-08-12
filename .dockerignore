@@ -1,2 +1,12 @@
+node_modules
+build
+dist
+coverage
+.git
+.env
+.env.*
+!.env.example
+*.log
 gcp-oauth.keys.json
 .gcp-saved-tokens.json
+tokens.json
