@@ -1,7 +1,7 @@
 # Google Calendar MCP Server - Optimized Dockerfile
 # syntax=docker/dockerfile:1
 
-FROM node:18-alpine
+FROM node:22.23.4-alpine
 
 # Runtime helper for dropping privileges after fixing volume permissions
 RUN apk add --no-cache su-exec
